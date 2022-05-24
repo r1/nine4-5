@@ -2,18 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../public/fonts/Roboto-Light.ttf);
+}
+
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../public/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../public/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../public/fonts/Roboto-Regular.ttf);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: white;
   position: absolute;
-
   width: 100%;
-  height: 100%;
-  background-color: #070707;
+  height: 200vh;
+  background-color: #000000;
 }
 
 a {
@@ -23,4 +41,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.roboto-light {
+  font-family: Roboto-light;
+}
+
+.roboto-medium {
+  font-family: Roboto-Medium;
+}
+
+.roboto-thin {
+  font-family: Roboto-Thin;
+}
+
+.roboto-regular {
+  font-family: Roboto-regular;
 }
